@@ -25,6 +25,9 @@
 			<Item Name="adam-DO-channel-command-builder.vi" Type="VI" URL="../utils-sub-vi/adam-util/adam-DO-channel-command-builder.vi"/>
 			<Item Name="adam-DO-send-command.vi" Type="VI" URL="../utils-sub-vi/adam-util/adam-DO-send-command.vi"/>
 		</Item>
+		<Item Name="arduino-json-interface" Type="Folder">
+			<Item Name="template-json-interface.vi" Type="VI" URL="../arduino-json-interface/template-json-interface.vi"/>
+		</Item>
 		<Item Name="template-state-machine" Type="Folder">
 			<Item Name="csv-file-logging" Type="Folder">
 				<Item Name="build-filepath.vi" Type="VI" URL="../utils-sub-vi/csv-file-logging-util/build-filepath.vi"/>
@@ -52,6 +55,8 @@
 			</Item>
 			<Item Name="template-state-machine-iwh.vi" Type="VI" URL="../template-state-machine-iwh/template-state-machine-iwh.vi"/>
 		</Item>
+		<Item Name="arduino-json-messenger.vi" Type="VI" URL="../arduino-json-interface/arduino-json-messenger.vi"/>
+		<Item Name="arduino-serial-ctrl.ctl" Type="VI" URL="../arduino-json-interface/arduino-serial-ctrl.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
