@@ -12,8 +12,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="adam-main" Type="Folder">
 			<Item Name="depreciated" Type="Folder">
-				<Item Name="adam-4069-basic.vi" Type="VI" URL="../adam-util/adam-4069-basic.vi"/>
-				<Item Name="adam-4069-channel.vi" Type="VI" URL="../adam-util/adam-4069-channel.vi"/>
+				<Item Name="adam-4069-basic.vi" Type="VI" URL="../utils-sub-vi/adam-util/adam-4069-basic.vi"/>
+				<Item Name="adam-4069-channel.vi" Type="VI" URL="../depreciated-delete-if-nothing-required-from-here-to-build-main/distillation-column-magnetic-actuator/adam-4069-channel.vi"/>
 			</Item>
 			<Item Name="adam-4xxxl.vi" Type="VI" URL="../adam-cmd-tester/adam-4xxxl.vi"/>
 			<Item Name="adam-4069.ico" Type="Document" URL="../adam-4069.ico"/>
@@ -66,9 +66,14 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
+			<Item Name="adam-check-DO-reply.vi" Type="VI" URL="../depreciated-delete-if-nothing-required-from-here-to-build-main/util/adam-check-DO-reply.vi"/>
+			<Item Name="adam-close-port.vi" Type="VI" URL="../depreciated-delete-if-nothing-required-from-here-to-build-main/util/adam-close-port.vi"/>
 			<Item Name="adam-cmd-builder-2(SubVI).vi" Type="VI" URL="../utils-sub-vi/adam-util/adam-cmd-builder-2(SubVI).vi"/>
+			<Item Name="adam-DO-send-command.vi" Type="VI" URL="../depreciated-delete-if-nothing-required-from-here-to-build-main/util/adam-DO-send-command.vi"/>
+			<Item Name="adam-init.vi" Type="VI" URL="../depreciated-delete-if-nothing-required-from-here-to-build-main/util/adam-init.vi"/>
 			<Item Name="adam-init.vi" Type="VI" URL="../utils-sub-vi/adam-util/adam-init.vi"/>
 			<Item Name="filepath-selection.ctl" Type="VI" URL="../utils-sub-vi/csv-file-logging-util/filepath-selection.ctl"/>
+			<Item Name="settings-recall.vi" Type="VI" URL="../depreciated-delete-if-nothing-required-from-here-to-build-main/util/settings-recall.vi"/>
 			<Item Name="state-enum.ctl" Type="VI" URL="../template-state-machine-iwh/state-enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
